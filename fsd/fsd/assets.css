@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo-nav{
+    width: 80px;
+    margin-left: 50px;
+}
+
+.nav-bar{
+    background: rgb(16, 95, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+.items-nav{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-right: 60px;
+}
+
+.items-nav *{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 10px;
+}
+
+.items-nav a{
+    margin-left: 15px;
+}
+
+.items-nav li a:hover{
+    background-color: rgb(16, 146, 4);
+    padding: auto;
+}
+body{
+    background: url(../fsd/fondo.jpg) ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Titulo{
+    background-size: cover;
+    background-color: rgba(52, 121, 17, 0.384);
+    width: 700px;
+    color: rgb(0, 0, 0);
+    margin-left: 405px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#Parrafo{
+    background-size: cover;
+    background-color: rgba(52, 121, 17, 0.384);
+    width: 700px;
+    margin-left: 405px;
+    padding: 50px;
+    border-radius: 10px;
+    font-size: 125%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Imagenes{
+    width: 600px;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+#Fin{
+    background-size: cover;
+    background-color: rgba(52, 121, 17, 0.384);
+    width: 700px;
+    margin-left: 405px;
+    padding: 5px;
+    border-radius: 10px;
+}
+@media screen and (max-width: 700px) {
+    
+    .Titulos{
+        width: 200px;
+        margin-left: 205px;
+        padding: 25px;
+    }
+
+    .Parrafos{
+        width: 200px; 
+        margin-left: 205px;
+        padding: 25px;
+    }
+
+    .Imagenes{
+        width: 200px;
+        margin-left: 205px;
+        margin-right: 205px;
+        border-radius: 15%; 
+    }
+
+    .Imagen{
+        width: 200px;
+        margin-left: 205px;
+        padding: 25px; 
+        border-radius: 15%; 
+    }
+
+}
